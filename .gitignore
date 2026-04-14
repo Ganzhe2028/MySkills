@@ -1,0 +1,127 @@
+# macOS系统文件
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 临时文件
+*.tmp
+*.temp
+*.swp
+*~
+*.bak
+*.backup
+
+# 日志文件
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 运行时数据
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# 依赖目录
+node_modules/
+bower_components/
+.vendor/
+vendor/
+
+# 构建输出
+dist/
+build/
+out/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# 测试相关
+coverage/
+.nyc_output/
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE配置文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 操作系统目录
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# 用户特定文件
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# 编译输出
+*.class
+*.pyc
+*.pyo
+
+# 包管理器锁文件
+package-lock.json
+yarn.lock
+
+# 本地开发配置
+.local-config*
+.local-env*
+
+# 大型媒体文件
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wav
+*.mp3
+
+# 文档生成
+_site/
+.sass-cache/
+.jekyll-metadata
+
+# 虚拟环境
+venv/
+env/
+.venv/
+
+# 特定于OpenCode Skills的忽略项
+# 个人测试文件
+test-*.md
+debug-*.md
+
+# 临时技能测试目录
+.test-skills/
+
+# 本地配置覆盖
+.local-skill-config.md
+
+# 大文件存储
+*.zip
+*.tar
+*.gz
+*.7z
+
+# 二进制文件（除非明确需要）
+*.bin
+*.exe
+*.dmg
+*.pkg
+
+# 证书和密钥
+*.pem
+*.key
+*.crt
+*.csr
