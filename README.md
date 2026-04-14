@@ -1,10 +1,10 @@
 # OpenCode Skills Collection
 
-> 善及万物，分享智慧 - 一个由我创建并开源的高质量OpenCode Skills集合
+> 善及万物 - 我与 GPT-5.4 产出的实用 Skills 集合
 
 ## 📚 项目简介
 
-这是一个专门收集和分享我创建的OpenCode Skills的仓库。OpenCode Skills是用于增强AI助手能力的专业技能模块，每个skill都针对特定任务进行了优化和精炼。
+这个仓库收集了 OpenCode/Codex/OpenClaw... 通用的实用技能模块。每个skill都解决一个具体问题，比如教师风格复习、macOS命令启动、简单概念解释等。你可以直接使用这些skills来增强AI助手的能力。
 
 ## 🎯 项目理念
 
