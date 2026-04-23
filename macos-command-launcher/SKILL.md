@@ -43,8 +43,8 @@ Example:
   --name "My Launcher" \
   --output-dir "$HOME/Applications" \
   --mode terminal \
-  --service "/Users/mac/bin/service-a start" "service-a start" \
-  --service "/Users/mac/bin/service-b --flag" "service-b --flag"
+  --service "/path/to/bin/service-a start" "service-a start" \
+  --service "/path/to/bin/service-b --flag" "service-b --flag"
 ```
 
 ## Failure modes
