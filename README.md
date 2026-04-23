@@ -14,11 +14,11 @@
 
 | 分类 | Skill | 说明 |
 | --- | --- | --- |
-| MSA(Moonshot Academy) | `teacher-style-review` | 复刻教师风格进行课程复习、出题和评分 |
-| MSA(Moonshot Academy) | `paogen-wendi` | 通过“刨根问底”方式定位并补齐前置知识 |
-| MSA(Moonshot Academy) | `defense-analysis-writer` | 将答辩素材整合为可用分析稿 |
-| MSA(Moonshot Academy) | `defense-evidence-extractor` | 从材料中抽取证据链和关键节点 |
-| MSA(Moonshot Academy) | `defense-thread-mapper` | 构建跨时间主线/暗线并做证据映射 |
+| MSA | `teacher-style-review` | 复刻教师风格进行课程复习、出题和评分 |
+| MSA | `paogen-wendi` | 通过“刨根问底”方式定位并补齐前置知识 |
+| MSA | `defense-analysis-writer` | 将答辩素材整合为可用分析稿 |
+| MSA | `defense-evidence-extractor` | 从材料中抽取证据链和关键节点 |
+| MSA | `defense-thread-mapper` | 构建跨时间主线/暗线并做证据映射 |
 | Writing / Analysing | `option-enumerator` | 系统枚举方案并比较取舍与风险 |
 | Writing / Analysing | `curate-skills` | 审查并重构 Skill 库结构与质量 |
 | Coding | `macos-command-launcher` | 构建可启动本地命令的 macOS 启动器 |
