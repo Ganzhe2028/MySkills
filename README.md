@@ -1,6 +1,6 @@
 # Isaac's Skills Collection
 
-> 善及万物 - Isaac 部分自用 Skills
+> 善及万物 - Isaac 的部分自用 Skills
 
 ## 项目简介
 
