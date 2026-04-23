@@ -38,18 +38,21 @@
 ## 📦 安装和使用
 
 ### 方法一：直接复制
+
 ```bash
 # 复制skill文件夹到你的OpenCode skills目录
 cp -r teacher-style-review ~/.config/opencode/skills/
 ```
 
 ### 方法二：使用skill工具
+
 ```bash
 # 在OpenCode环境中使用skill工具加载
 skill(name="teacher-style-review")
 ```
 
 ### 方法三：Git子模块
+
 ```bash
 # 将整个仓库添加为子模块
 git submodule add https://github.com/yourusername/opencode-skills.git skills-collection
@@ -58,6 +61,7 @@ git submodule add https://github.com/yourusername/opencode-skills.git skills-col
 ## 🏗️ Skill结构
 
 每个skill都遵循标准结构：
+
 ```
 skill-name/
 ├── SKILL.md          # 主技能定义文件
@@ -67,6 +71,7 @@ skill-name/
 ```
 
 ### SKILL.md文件格式
+
 ```yaml
 ---
 name: skill-name
@@ -74,7 +79,6 @@ description: 技能描述
 compatibility: [pdf, spreadsheet, markdown] # 可选
 user-invocable: true # 可选
 ---
-
 # 技能标题
 
 详细的使用说明、工作流程、示例等...
@@ -83,6 +87,7 @@ user-invocable: true # 可选
 ## 🔧 开发新Skill
 
 ### 创建步骤：
+
 1. 创建skill文件夹：`mkdir new-skill-name`
 2. 编写SKILL.md文件，包含元数据和详细说明
 3. 添加必要的辅助文件（scripts/, references/等）
@@ -90,6 +95,7 @@ user-invocable: true # 可选
 5. 提交到仓库
 
 ### 最佳实践：
+
 - **明确触发条件**：清晰定义何时使用该skill
 - **完整文档**：包含使用示例、工作流程、注意事项
 - **实际测试**：确保skill在实际场景中有效
@@ -106,6 +112,7 @@ user-invocable: true # 可选
 5. 提供使用示例和测试说明
 
 ### 贡献要求：
+
 - 必须是原创或获得授权的skill
 - 必须有完整的文档
 - 必须经过实际测试
@@ -114,9 +121,10 @@ user-invocable: true # 可选
 ## 📖 使用示例
 
 ### 使用teacher-style-review：
+
 ```javascript
 // 在OpenCode环境中
-skill(name="teacher-style-review")
+skill((name = "teacher-style-review"));
 
 // 然后可以请求教师风格的复习帮助
 // "帮我分析这个测试的风格"
@@ -125,8 +133,9 @@ skill(name="teacher-style-review")
 ```
 
 ### 使用macos-command-launcher：
+
 ```javascript
-skill(name="macos-command-launcher")
+skill((name = "macos-command-launcher"));
 
 // 创建Spotlight可启动的应用
 // "为我的本地服务器创建一个启动器"

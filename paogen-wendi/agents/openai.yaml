@@ -1,0 +1,4 @@
+interface:
+  display_name: "刨根问底"
+  short_description: "倒推前置知识，再自下而上重建理解"
+  default_prompt: "Use $paogen-wendi to diagnose the missing prerequisite layers for this learning target, repair the lowest useful foundation, and rebuild the reasoning chain back to the target with retrieval and transfer checks."

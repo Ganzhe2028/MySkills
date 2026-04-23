@@ -1,0 +1,4 @@
+interface:
+  display_name: "Curate Skills"
+  short_description: "Audit, slim, and reorganize skill libraries"
+  default_prompt: "Use $curate-skills to audit this skills directory and turn it into a leaner, better-organized skill set."
