@@ -1,4 +1,4 @@
-# OpenCode Skills Collection
+# Isaac's Skills Collection
 
 > 善及万物 - Isaac 部分自用 Skills
 
