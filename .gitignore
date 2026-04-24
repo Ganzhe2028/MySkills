@@ -1,3 +1,5 @@
+/dangerous
+
 # macOS系统文件
 .DS_Store
 .AppleDouble
@@ -125,3 +127,8 @@ debug-*.md
 *.key
 *.crt
 *.csr
+
+# 从仓库取消跟踪但保留本地的 defense skills
+defense-analysis-writer/
+defense-evidence-extractor/
+defense-thread-mapper/
