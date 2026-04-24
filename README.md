@@ -10,15 +10,11 @@
 
 ## 当前收录 Skills
 
-> 已同步为仓库实际存在的目录（共 10 个）
+> 已同步为仓库实际存在的目录（共 6 个）
 
 | 分类 | Skill | 说明 |
 | --- | --- | --- |
-| MSA | `teacher-style-review` | 复刻教师风格进行课程复习、出题和评分 |
-| MSA | `paogen-wendi` | 通过“刨根问底”方式定位并补齐前置知识 |
-| MSA | `defense-analysis-writer` | 将答辩素材整合为可用分析稿 |
-| MSA | `defense-evidence-extractor` | 从材料中抽取证据链和关键节点 |
-| MSA | `defense-thread-mapper` | 构建跨时间主线/暗线并做证据映射 |
+| Learning | `paogen-wendi` | 通过“刨根问底”方式定位并补齐前置知识 |
 | Writing / Analysing | `option-enumerator` | 系统枚举方案并比较取舍与风险 |
 | Writing / Analysing | `curate-skills` | 审查并重构 Skill 库结构与质量 |
 | Coding | `macos-command-launcher` | 构建可启动本地命令的 macOS 启动器 |
