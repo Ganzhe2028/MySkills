@@ -10,16 +10,20 @@
 
 ## 当前收录 Skills
 
-> 已同步为仓库实际存在的目录（共 6 个）
+> 已同步为仓库实际存在的目录（共 10 个）
 
 | 分类 | Skill | 说明 |
 | --- | --- | --- |
-| Learning | `paogen-wendi` | 通过“刨根问底”方式定位并补齐前置知识 |
+| Learning | `paogen-wendi` | 通过"刨根问底"方式定位并补齐前置知识 |
+| Learning | `article-easier-reader` | 将英文文章转为易读版学习文档 |
 | Writing / Analysing | `option-enumerator` | 系统枚举方案并比较取舍与风险 |
 | Writing / Analysing | `curate-skills` | 审查并重构 Skill 库结构与质量 |
 | Coding | `macos-command-launcher` | 构建可启动本地命令的 macOS 启动器 |
 | Coding | `OpensourceHelper` | 开源仓库发布前检查与流程辅助 |
+| Coding | `agent-config-audit` | 审计本地 Agent 配置但不做任何修改 |
+| Coding | `repo-harness-minimal` | 为编码 Agent 项目提供最小可重启工作流 |
 | General | `normally` | 用自然、低 AI 痕迹的方式解释简单概念 |
+| General | `personal-harness` | 个人 Agent 工作的顶层路由与任务分配 |
 
 ## 安装与使用
 
