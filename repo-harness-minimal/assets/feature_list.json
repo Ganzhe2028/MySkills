@@ -1,0 +1,23 @@
+{
+  "project": "replace-with-project-name",
+  "last_updated": "YYYY-MM-DD",
+  "rules": {
+    "single_active_feature": true,
+    "passing_requires_evidence": true,
+    "do_not_skip_verification": true
+  },
+  "features": [
+    {
+      "id": "feat-001",
+      "priority": 1,
+      "title": "Replace with first feature",
+      "status": "not_started",
+      "verification": [
+        "Replace with the command or manual check that proves this feature works."
+      ],
+      "evidence": [],
+      "notes": ""
+    }
+  ]
+}
+
