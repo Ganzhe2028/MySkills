@@ -40,6 +40,19 @@ Use this skill when the user wants to:
 - transfer the same learning method from math to another subject
 - ask things like “从底层讲起”, “刨根问底”, “我基础不稳”, “一步一步推回来”, “为什么这里可以这样”, “这个东西到底依赖什么”
 
+## Trigger calibration
+
+Use the full workflow only when the request has a learning-diagnosis signal:
+
+- the learner says they can read answers but cannot start alone
+- the learner names confusion about why a step, formula, method, or concept works
+- the learner asks to rebuild foundations, find missing prerequisites, or review a topic deeply
+- the task needs a reusable learning path, not only the current answer
+
+Use a light version when the user asks a small "why" question. Give the direct answer first, then add only the one missing prerequisite or connection needed to make that answer make sense.
+
+Do not trigger just because the topic is academic. A quiz fact, vocabulary definition, translation, formula lookup, or one-step calculation should stay short unless the user asks for diagnosis or foundation repair.
+
 ## Do not use this skill when
 
 Do not use this skill for:
@@ -50,7 +63,7 @@ Do not use this skill for:
 - motivational coaching without a concrete learning target
 - medical, legal, financial, or safety-critical instruction
 
-If the user asks for a quick answer first, answer briefly, then offer the shortest root-path only if it is needed for understanding.
+If the user asks for a quick answer first, answer briefly, then add the shortest root-path only if it is needed for understanding. Do not convert every quick question into `目标 -> 先测基础 -> 前置知识梯`.
 
 ## Core model
 
@@ -74,6 +87,17 @@ The goal is not to be exhaustive. The goal is to find the smallest foundation th
 
 Only descend deeper when the current layer cannot support the next inference.
 Do not treat rereading as proof of learning. The learner must retrieve, explain, or apply.
+
+## Depth control
+
+Choose the smallest useful depth:
+
+- **Direct answer**: for facts, definitions, and one-step calculations. Answer in 1 to 3 sentences.
+- **Light root-path**: for a small "why" question. Answer first, then explain the one hidden dependency and climb back to the original question.
+- **Full diagnosis**: for repeated confusion, blocked problem-solving, weak foundations, or explicit "刨根问底" requests. Use probes, breakpoint classification, ladder, repair, reconstruction, and transfer checks.
+- **Study plan**: for multi-day review. Keep the first loop narrow and executable before expanding the syllabus.
+
+When in doubt between light and full, start light and expose the next diagnostic question. Escalate only if the learner's answer shows a broken prerequisite.
 
 ## Stop descending
 
@@ -108,3 +132,5 @@ If the task looks like graded homework, prioritize diagnosis, hints, and learner
 Good output locates the broken layer, explains the minimum necessary foundation, rebuilds the reasoning chain, and checks transfer.
 
 Bad output gives a polished answer without prerequisite diagnosis, lists a giant curriculum, uses jargon before intuition, or claims understanding without retrieval and transfer.
+
+Bad output also over-triggers on simple academic questions, expands a whole prerequisite tree before answering, or leaves the learner with probes when a direct answer was clearly enough.

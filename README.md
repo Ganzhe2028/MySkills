@@ -19,7 +19,7 @@
 | Writing / Analysing | `option-enumerator` | 系统枚举方案并比较取舍与风险 |
 | Writing / Analysing | `curate-skills` | 审查并重构 Skill 库结构与质量 |
 | Coding | `macos-command-launcher` | 构建可启动本地命令的 macOS 启动器 |
-| Coding | `OpensourceHelper` | 开源仓库发布前检查与流程辅助 |
+| Coding | `opensource-release-guard` | 开源仓库发布前检查与流程辅助 |
 | Agent | `agent-config-audit` | 审计本地 Agent 配置但不做任何修改 |
 | Agent | `repo-harness-minimal` | 为编码 Agent 项目提供最小可重启工作流 |
 | General | `normally` | 用自然、低 AI 痕迹的方式解释简单概念 |

@@ -1,6 +1,6 @@
 ---
 name: repo-harness-minimal
-description: Create a minimal code repo harness: short AGENTS.md, feature_list.json, progress.md, and init.sh for durable agent workflow state.
+description: "Create a minimal code repo harness with short AGENTS.md, feature_list.json, progress.md, and init.sh files. Use when a real code repository needs durable agent workflow state and does not already have equivalent harness files."
 ---
 
 # Repo Harness Minimal

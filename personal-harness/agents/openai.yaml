@@ -1,0 +1,4 @@
+interface:
+  display_name: "Personal Harness"
+  short_description: "Route personal agent work to the right skill or workflow"
+  default_prompt: "Use $personal-harness to choose the smallest useful workflow for this personal agent task, identify the five harness checks, and route to the right concrete skill or repo process."

@@ -1,6 +1,6 @@
 ---
 name: personal-harness
-description: Route personal agent work: writing, research, config audit, debugging, skill use, lightweight coding, and harness selection.
+description: "Route personal agent work across writing, research, config audit, debugging, skill use, lightweight coding, and harness selection. Use when a task needs a small top-level routing check before choosing the concrete skill or repo workflow."
 ---
 
 # Personal Harness

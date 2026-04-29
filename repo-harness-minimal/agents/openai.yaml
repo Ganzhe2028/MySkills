@@ -1,0 +1,4 @@
+interface:
+  display_name: "Repo Harness Minimal"
+  short_description: "Create a small restartable harness for code repos"
+  default_prompt: "Use $repo-harness-minimal to add or adapt the smallest useful AGENTS.md, feature_list.json, progress.md, and init.sh harness for this code repository."

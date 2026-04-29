@@ -1,0 +1,4 @@
+interface:
+  display_name: "Open Source Release Guard"
+  short_description: "Audit a repo before public open-source release"
+  default_prompt: "Use $opensource-release-guard to audit this repository for privacy, security, Git history, release hygiene, and publishing workflow risks before it is made public."
