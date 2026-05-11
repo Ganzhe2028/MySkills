@@ -10,12 +10,13 @@
 
 ## 当前收录 Skills
 
-> 已同步为仓库实际存在的目录（共 10 个）
+> 已同步为仓库实际存在的目录（共 11 个）
 
 | 分类 | Skill | 说明 |
 | --- | --- | --- |
 | Learning | `paogen-wendi` | 通过"刨根问底"方式定位并补齐前置知识 |
 | Learning | `article-easier-reader` | 将英文文章转为易读版学习文档 |
+| Academic | `ielts-writing-review` | 基于 CLC 的雅思/学术写作审校，先写清楚再决定复杂度 |
 | Writing / Analysing | `option-enumerator` | 系统枚举方案并比较取舍与风险 |
 | Writing / Analysing | `curate-skills` | 审查并重构 Skill 库结构与质量 |
 | Coding | `macos-command-launcher` | 构建可启动本地命令的 macOS 启动器 |
