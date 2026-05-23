@@ -14,21 +14,21 @@
 
 | 分类 | Skill | 说明 |
 | --- | --- | --- |
-| Learning | `paogen-wendi` | 通过"刨根问底"方式定位并补齐前置知识 |
-| Learning | `article-easier-reader` | 将英文文章转为易读版学习文档 |
-| Academic | `ielts-writing-review` | 基于 CLC 的雅思/学术写作审校，先写清楚再决定复杂度 |
-| Academic | `literary-analysis-reader-revision` | 修订中文文学分析论文的读者意识——目标读者没读过原文 |
-| Academic | `meaningful-life-interview-analysis` | 质性访谈「有意义人生」主题分析，含多个理论框架 |
-| Narrative Presentation/Slides | `defense-presentation-narrative-reviewer` | 审查 defense presentation 的叙事、证据链和视觉分配 |
-| Writing / Analysing | `option-enumerator` | 系统枚举方案并比较取舍与风险 |
-| Writing / Analysing | `curate-skills` | 审查并重构 Skill 库结构与质量 |
-| Writing / Analysing | `question-praise-reflection-coach` | 读 memo/反思，通过提问式表扬帮助深度反思 |
-| Coding | `macos-command-launcher` | 构建可启动本地命令的 macOS 启动器 |
-| Coding | `opensource-release-guard` | 开源仓库发布前检查与流程辅助 |
-| Agent | `agent-config-audit` | 审计本地 Agent 配置但不做任何修改 |
-| Agent | `repo-harness-minimal` | 为编码 Agent 项目提供最小可重启工作流 |
-| General | `normally` | 用自然、低 AI 痕迹的方式解释简单概念 |
-| Agent | `personal-harness` | 个人 Agent 工作的顶层路由与任务分配 |
+| Learning | `paogen-wendi` | 学一个东西卡住了，但不知道卡在哪？这个 skill 帮你一路往回找，揪出你真正缺的那块知识，补上了再往前走 |
+| Learning | `article-easier-reader` | 英文文章读得头大？丢给它，帮你转成好读的中文笔记——生词、长难句、隐藏的逻辑线，全给你拆开 |
+| Academic | `ielts-writing-review` | 帮你改雅思或学术作文。原则很简单：先确保把话说清楚，再考虑要不要换高级词。反对模板句堆砌，主张你独立表达 |
+| Academic | `literary-analysis-reader-revision` | 你写了篇文学分析论文，但老师没读过原著？这个 skill 帮你重写，让你的论文不再假设读者都知道背景 |
+| Academic | `meaningful-life-interview-analysis` | 做了一堆采访，不知道从哪开始分析？这个 skill 帮你从采访稿里找出共同规律、对比不同人的回答、填好分析表格 |
+| Narrative Presentation/Slides | `defense-presentation-narrative-reviewer` | 答辩 PPT 准备好了没？这个 skill 帮你检查：故事线顺不顺、证据够不够硬、每一页到底有没有必要存在 |
+| Writing / Analysing | `option-enumerator` | 面对几个方案不知道怎么选？这个 skill 帮你把每个选项的优点、坑、代价都摆到桌面上，排好推荐顺序 |
+| Writing / Analysing | `curate-skills` | 你的 skill 文件夹越堆越乱？这个 skill 帮你整理——删重复的、修写错的、归好类，剩下清爽的一套 |
+| Writing / Analysing | `question-praise-reflection-coach` | 写了篇日记或反思，不知道接下来怎么往下想？这个 skill 从你写的东西里抓出你自己都没注意到的亮点，然后问几个好问题，推你继续深挖 |
+| Coding | `macos-command-launcher` | 想在 Mac 上做个一键启动命令的小工具（比如一键开服务、一键跑脚本）？这个 skill 帮你搭出来 |
+| Coding | `opensource-release-guard` | 代码准备开源？这个 skill 先帮你扫一遍有没有泄露的密码、私人信息、不该出现的文件，然后告诉你安全发布分几步 |
+| Agent | `agent-config-audit` | 不确定你的 AI 助手配置有没有写错？这个 skill 帮你全部检查一遍，只告诉你哪里不对，不动你的任何文件 |
+| Agent | `repo-harness-minimal` | 想让 AI 帮你写代码，但每次都得从头解释项目背景？这个 skill 帮你生成一套最小配置文件，下次 AI 进来就知道项目是什么、规则是什么 |
+| General | `normally` | 想用正常人聊天的方式解释一个概念？这个 skill 帮你写出来不像 AI 写的，像朋友在跟你说话 |
+| Agent | `personal-harness` | 有好几个 AI 工具不知道什么活该交给谁？这个 skill 帮你做总调度——看一眼任务类型，直接告诉你调哪个 skill 最合适 |
 
 ## 安装与使用
 
