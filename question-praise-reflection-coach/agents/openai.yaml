@@ -1,0 +1,4 @@
+interface:
+  display_name: "提问式赞美反思教练"
+  short_description: "从 memo 细节中提出真实亮点和反思问题"
+  default_prompt: "Use $question-praise-reflection-coach to read my memo and generate concrete praise-based reflection questions."

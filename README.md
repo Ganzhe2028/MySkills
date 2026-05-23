@@ -10,16 +10,19 @@
 
 ## 当前收录 Skills
 
-> 已同步为仓库实际存在的目录（共 12 个）
+> 已同步为仓库实际存在的目录（共 15 个）
 
 | 分类 | Skill | 说明 |
 | --- | --- | --- |
 | Learning | `paogen-wendi` | 通过"刨根问底"方式定位并补齐前置知识 |
 | Learning | `article-easier-reader` | 将英文文章转为易读版学习文档 |
 | Academic | `ielts-writing-review` | 基于 CLC 的雅思/学术写作审校，先写清楚再决定复杂度 |
+| Academic | `literary-analysis-reader-revision` | 修订中文文学分析论文的读者意识——目标读者没读过原文 |
+| Academic | `meaningful-life-interview-analysis` | 质性访谈「有意义人生」主题分析，含多个理论框架 |
 | Narrative Presentation/Slides | `defense-presentation-narrative-reviewer` | 审查 defense presentation 的叙事、证据链和视觉分配 |
 | Writing / Analysing | `option-enumerator` | 系统枚举方案并比较取舍与风险 |
 | Writing / Analysing | `curate-skills` | 审查并重构 Skill 库结构与质量 |
+| Writing / Analysing | `question-praise-reflection-coach` | 读 memo/反思，通过提问式表扬帮助深度反思 |
 | Coding | `macos-command-launcher` | 构建可启动本地命令的 macOS 启动器 |
 | Coding | `opensource-release-guard` | 开源仓库发布前检查与流程辅助 |
 | Agent | `agent-config-audit` | 审计本地 Agent 配置但不做任何修改 |
