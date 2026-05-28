@@ -10,7 +10,7 @@
 
 ## 当前收录 Skills
 
-> 已同步为仓库实际存在的目录（共 15 个）
+> 已同步为仓库实际存在的目录（共 17 个）
 
 | 分类 | Skill | 说明 |
 | --- | --- | --- |
@@ -23,6 +23,8 @@
 | Writing / Analysing | `option-enumerator` | 面对几个方案不知道怎么选？这个 skill 帮你把每个选项的优点、坑、代价都摆到桌面上，排好推荐顺序 |
 | Writing / Analysing | `curate-skills` | 你的 skill 文件夹越堆越乱？这个 skill 帮你整理——删重复的、修写错的、归好类，剩下清爽的一套 |
 | Writing / Analysing | `question-praise-reflection-coach` | 写了篇日记或反思，不知道接下来怎么往下想？这个 skill 从你写的东西里抓出你自己都没注意到的亮点，然后问几个好问题，推你继续深挖 |
+| Writing | `khazix-writer` | 想用数字生命卡兹克的风格写公众号长文？这个 skill 帮你按他的写作方法论出稿——从选题判断、风格把控到四层质检，完整走完一篇有活人感的文章 |
+| Writing | `natural-chinese-writing` | 写出来的中文总像 AI 翻译的？这个 skill 帮你把译文感、顾问腔、套话过渡全洗掉，改成自然、直接、像真人写的中文 |
 | Coding | `macos-command-launcher` | 想在 Mac 上做个一键启动命令的小工具（比如一键开服务、一键跑脚本）？这个 skill 帮你搭出来 |
 | Coding | `opensource-release-guard` | 代码准备开源？这个 skill 先帮你扫一遍有没有泄露的密码、私人信息、不该出现的文件，然后告诉你安全发布分几步 |
 | Agent | `agent-config-audit` | 不确定你的 AI 助手配置有没有写错？这个 skill 帮你全部检查一遍，只告诉你哪里不对，不动你的任何文件 |
