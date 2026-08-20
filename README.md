@@ -1,4 +1,4 @@
-# Isaac's Skills Collection
+# Isaac’s Skills Collection
 
 > 善及万物 - Isaac 的部分自用 Skills
 
@@ -10,16 +10,11 @@
 
 ## 当前收录 Skills
 
-> 已同步为仓库实际存在的目录（共 24 个）
+> 已同步为仓库实际存在的目录（共 13 个）
 
 | 分类 | Skill | 说明 |
 | --- | --- | --- |
-| Learning | `paogen-wendi` | 学一个东西卡住了，但不知道卡在哪？这个 skill 帮你一路往回找，揪出你真正缺的那块知识，补上了再往前走 |
-| Learning | `article-easier-reader` | 英文文章读得头大？丢给它，帮你转成好读的中文笔记——生词、长难句、隐藏的逻辑线，全给你拆开 |
-| Academic | `ielts-writing-review` | 帮你改雅思或学术作文。原则很简单：先确保把话说清楚，再考虑要不要换高级词。反对模板句堆砌，主张你独立表达 |
-| Academic | `literary-analysis-reader-revision` | 你写了篇文学分析论文，但老师没读过原著？这个 skill 帮你重写，让你的论文不再假设读者都知道背景 |
-| Academic | `meaningful-life-interview-analysis` | 做了一堆采访，不知道从哪开始分析？这个 skill 帮你从采访稿里找出共同规律、对比不同人的回答、填好分析表格 |
-| Narrative Presentation/Slides | `defense-presentation-narrative-reviewer` | 答辩 PPT 准备好了没？这个 skill 帮你检查：故事线顺不顺、证据够不够硬、每一页到底有没有必要存在 |
+| Learning | `adaptive-learning-workbook` | 自学或练习做到一半，不知道下一步该练什么？这个 skill 读你最近做的练习和批注，找出当下最该补的那个小缺口，生成下一页可以直接改的 Notion 练习页。雅思和英语自学尤其适用 |
 | Design | `cdb-design-foundations` | 还没想清楚设计要干什么就动手了？这个 skill 先帮你定观众、信息、约束，再定功能、效率、情感三个目标，顺便分清自我表达和设计交付的差别 |
 | Design | `cdb-design-review` | 海报、PPT、界面做出来了，不知道行不行？这个 skill 按功能、效率、情感三个维度打分，列出一份改什么、为什么改、改完怎么验证的清单 |
 | Design | `cdb-color` | 配色越用越乱，或者压根不知道怎么下手？这个 skill 从颜色该干的活出发帮你定主色、辅助色、强调色，再查对比度和含义一致性 |
@@ -27,17 +22,11 @@
 | Design | `cdb-layout` | 信息全堆在页面上，读者不知道先看哪？这个 skill 帮你排阅读顺序、把相关内容归组，再用对比、重复、对齐、亲密性四项过一遍版式 |
 | Design | `cdb-typography` | 字体换来换去还是觉得别扭？这个 skill 帮你选字体、定字号层级、调字重，中英文混排怎么处理也有一套方法 |
 | Design | `cdb-storyboarding-slides` | 要做 PPT 但不知道先讲什么？这个 skill 教你 storyboarding——先定每页要干的事，再排转场，盯着观众注意力别走丢 |
-| Writing / Analysing | `option-enumerator` | 面对几个方案不知道怎么选？这个 skill 帮你把每个选项的优点、坑、代价都摆到桌面上，排好推荐顺序 |
-| Writing / Analysing | `curate-skills` | 你的 skill 文件夹越堆越乱？这个 skill 帮你整理——删重复的、修写错的、归好类，剩下清爽的一套 |
-| Writing / Analysing | `question-praise-reflection-coach` | 写了篇日记或反思，不知道接下来怎么往下想？这个 skill 从你写的东西里抓出你自己都没注意到的亮点，然后问几个好问题，推你继续深挖 |
-| Writing | `khazix-writer` | 想用数字生命卡兹克的风格写公众号长文？这个 skill 帮你按他的写作方法论出稿——从选题判断、风格把控到四层质检，完整走完一篇有活人感的文章 |
 | Writing | `natural-chinese-writing` | 写出来的中文总像 AI 翻译的？这个 skill 帮你把译文感、顾问腔、套话过渡全洗掉，改成自然、直接、像真人写的中文 |
 | Coding | `macos-command-launcher` | 想在 Mac 上做个一键启动命令的小工具（比如一键开服务、一键跑脚本）？这个 skill 帮你搭出来 |
-| Coding | `opensource-release-guard` | 代码准备开源？这个 skill 先帮你扫一遍有没有泄露的密码、私人信息、不该出现的文件，然后告诉你安全发布分几步 |
-| Agent | `agent-config-audit` | 不确定你的 AI 助手配置有没有写错？这个 skill 帮你全部检查一遍，只告诉你哪里不对，不动你的任何文件 |
-| Agent | `repo-harness-minimal` | 想让 AI 帮你写代码，但每次都得从头解释项目背景？这个 skill 帮你生成一套最小配置文件，下次 AI 进来就知道项目是什么、规则是什么 |
-| General | `normally` | 想用正常人聊天的方式解释一个概念？这个 skill 帮你写出来不像 AI 写的，像朋友在跟你说话 |
-| Agent | `personal-harness` | 有好几个 AI 工具不知道什么活该交给谁？这个 skill 帮你做总调度——看一眼任务类型，直接告诉你调哪个 skill 最合适 |
+| Coding | `storage-analyzer` | 电脑硬盘满了，不知道什么东西在占空间？这个 skill 只读扫描整块磁盘，找出占空间大户，把每项分成能自动清理、需人工判断、谨慎清理三级，生成一份能折叠、命令可一键复制的 HTML 报告，还能起本地服务在网页上一键删除 |
+| Coding | `website-to-hyperframes` | 想用一个网址做条视频？这个 skill 把网页录下来，用 HyperFrames 做成产品介绍、社交广告或演示视频 |
+| Agent | `neat-freak` | 项目告一段落，文档和 agent 记忆还停在老版本？这个 skill 把 CLAUDE.md、README 这些文档跟实际代码逐项对一遍，烂掉的同步掉，洁癖级不留死角 |
 
 ## 安装与使用
 

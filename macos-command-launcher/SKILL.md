@@ -1,7 +1,9 @@
 ---
 name: macos-command-launcher
-description: Build reusable macOS command launcher apps and choose the right packaging route. Use when the user wants a Spotlight-launchable manual starter, a Terminal-visible wrapper, a silent background launcher, a LaunchAgent, or a native app for Mac commands or services.
-user-invocable: true
+description: Build reusable macOS command launcher apps and choose the right packaging
+  route. Use when the user wants a Spotlight-launchable manual starter, a Terminal-visible
+  wrapper, a silent background launcher, a LaunchAgent, or a native app for Mac commands
+  or services.
 ---
 
 ## What this skill does
@@ -43,8 +45,8 @@ Example:
   --name "My Launcher" \
   --output-dir "$HOME/Applications" \
   --mode terminal \
-  --service "/path/to/bin/service-a start" "service-a start" \
-  --service "/path/to/bin/service-b --flag" "service-b --flag"
+  --service "~/bin/service-a start" "service-a start" \
+  --service "~/bin/service-b --flag" "service-b --flag"
 ```
 
 ## Failure modes

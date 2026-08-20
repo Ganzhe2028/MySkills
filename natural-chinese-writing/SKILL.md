@@ -1,6 +1,6 @@
 ---
 name: natural-chinese-writing
-description: Rewrite or generate Chinese that sounds natural, direct, human, and information-dense. Reduce AI-style phrasing, translated-English rhythm, customer-service tone, consultant language, and empty transition scaffolding.
+description: Rewrite or generate Chinese that sounds natural, direct, human, and information-dense. MANDATORY trigger for ALL Chinese article/document writing — any task that produces or edits Chinese prose above a paragraph, INCLUDING document merging, cleanup, tidying, restructuring, archiving, translation into Chinese, and multi-draft consolidation (合并/清理/梳理/整理/存档/翻译/多稿合一), even when the task looks like file organization rather than writing. Reduce AI-style phrasing, translated-English rhythm, customer-service tone, consultant language, empty transition scaffolding, and over-polished rewrites that erase the author's voice. See references/isaac-writing-rules.md for additional constraints including CDB-specific rules.
 license: MIT
 compatibility: opencode
 metadata:
@@ -25,34 +25,23 @@ The target is:
 - human-sounding
 - readable without feeling templated
 
-## Use this skill when
+## Trigger rule (MANDATORY)
 
-Use this skill when one or more of these are true:
+**凡涉及中文文章/文档的写作或编辑，必定触发此 skill。** 包括但不限于：复盘、反思、论文、报告、教程、公告、演讲稿、公众号文章、个人陈述、申请材料、叙事写作、分析写作。
 
-- the draft sounds like AI-generated Chinese
-- the writing sounds translated from English
-- the wording is too stiff, too official, too corporate, or too consultant-like
-- the text has too much meta-framing, recap language, or fake balance
-- the user wants something more like spoken modern Chinese
-- the content is correct but the language feels dead, padded, or synthetic
-- the task is rewriting analysis, explanation, reflection, or report prose into more natural Chinese
+**也包括以下「看起来不是写作」的任务**：合并多份文档、清理/梳理/整理/重构文档、多稿合一、把材料整理成存档、翻译成中文、把零散笔记整理成文档。表面是文件整理、实际产出中文段落的任务，同样触发。
 
-Typical cases:
-- rewriting AI outputs into human Chinese
-- cleaning up analytical writing
-- improving defense / reflection narratives
-- rewriting explanations into plain Chinese
-- converting formal writing into something that can actually be said aloud
-- removing "AI slop" while keeping the ideas intact
+判断标准很简单：**产出的中文超过一个段落** → 加载此 skill + references/isaac-writing-rules.md。
+
+不需要判断「写得好不好」「有没有 AI 味」——所有中文写作一律先走这条流水线，宁可多走一步，不可漏掉。
 
 ## Do not use this skill when
 
-Do not use this skill for:
-- classical Chinese
-- highly formal legal or contractual writing
-- literal translation tasks where fidelity matters more than naturalness
-- highly ceremonial official writing where stiffness is expected
-- situations where the user explicitly wants heavy formal written style
+仅以下情况豁免：
+- 回复中引用/展示他人原文（保留原样）
+- 纯代码、命令行输出、技术日志
+- 古典文言文创作
+- 用户明确要求保留特定正式/官方文风
 
 ## Core principle
 
@@ -167,6 +156,15 @@ Examples of the pattern:
 - too much distance from actual spoken thought
 - correct but lifeless expression
 
+### G. Over-polished rewriting
+
+Examples of the pattern:
+- improving sentences that were not actually blocking the reader
+- replacing the author's plain observation with a polished slogan
+- deleting small oral traces such as hesitation, self-correction, sentence-final particles, or uneven rhythm
+- adding a sharper image, time, place, number, or scene that the author did not provide
+- making the text smoother while making it less like the person who wrote it
+
 ## Workflow
 
 Follow this order.
@@ -279,6 +277,66 @@ Do not soften the point into harmlessness.
 
 When writing for or reviewing Isaac's Chinese prose, additional hard constraints apply beyond the general principles above. **Load `references/isaac-writing-rules.md`** — it covers corrective-structure bans, anti-labeling rules, breathing rhythm, quote format, and the full multi-pass review pipeline (natural-chinese-writing → humanizer → Isaac rules → breathing → quote check).
 
+### Pattern F: English → Chinese translation with voice preservation
+
+When the source text is English and must be rendered as natural Chinese in the user's voice, extra vigilance is needed because English idiom smuggles in banned patterns:
+
+**Pre-translation scan** — identify these before writing the first Chinese sentence:
+- English "not X, but Y" / "not from X, from Y" → this is the most dangerous pattern. English uses it everywhere for clean contrast, but direct translation produces 「不是X，而是Y」which is banned. Restructure: drop the negative half and state the positive directly, or use 「它本身就……」「跟……无关」「反倒是」.
+- English abstract nouns (impulse, tendency, synthesis, running into, the act of) → unpack into concrete verbs before translating. "The impulse to add things" → 「想加东西的冲动」(keep the concrete 想加, don't nominalize to 「添加的冲动」).
+- English passive → Chinese active. "The mechanism was unlocked by..." → 「这个洞察直接解锁了……」not 「机制被……解锁了」.
+- English stacked possessives and "of"-chains → break into short clauses. "The difference between a tap that feels intentional and one that feels awkward" → 「一个碰了觉得有仪式感的动作，和一个碰了觉得尴尬的动作，差别很微妙」.
+
+**Post-translation verification** — after drafting:
+1. Scan for any 「不是」that isn't a factual narrative or first-person self-reflective statement (only the explicit exceptions in isaac-writing-rules.md rule 5).
+2. Read aloud: if a sentence feels like it was thought in English first and then rendered in Chinese, it probably was — restructure.
+3. Run the full Isaac rules check (矫正句式 grep, breathing check, quote check) as if the text were originally written in Chinese.
+
+**Pitfall**: English source text that already sounds natural and personal in English can trick you into thinking the direct translation will sound natural in Chinese. It won't. Translation adds a layer of rhythmic foreignness that the reader will feel even if every individual word is correct. Always treat translated text as needing the same de-translation pass you'd give AI-generated Chinese.
+
+### Pattern G: Editing another person's draft
+
+When the user brings their own text and asks for polishing, rewriting, trimming, or "make it less AI-like", preserve the person behind the draft. The best edit is often almost invisible.
+
+Use these rules:
+- Change less than you want to. Every edit must answer: what was actually tripping the reader here?
+- Treat rough edges as possible voice before treating them as defects. Oral traces, repeated words, uneven sentence length, and small particles may carry hesitation, self-mockery, breath, or stance.
+- Do not add quotable lines. A neat antithesis, polished metaphor, or elegant summary is a warning sign if it did not come from the author.
+- Do not replace plain observation with copywriting. A flat sentence can be the author's calm judgment.
+- Do not invent concreteness. Avoid adding scenes, times, numbers, examples, or images that are not already implied by the text.
+- When unsure, use plain description. Say what happened, keep adjectives light, and avoid upgrading the prose into performance.
+- After editing, list what changed and why. Mark uncertain edits as reversible.
+
+Check only the sentences you changed, not the whole original. Look for:
+- inflated meaning: 「体现了」「彰显了」「折射出」「重新定义」「时代浪潮」
+- promotional tone: 「赋能」「打造」「极致体验」「不容错过」「深厚底蕴」
+- formulaic structure: 「不是X，而是Y」, forced three-part parallelism, fake 「从X到Y」 ranges, slogan-like 「X 是 Y 的语言」
+- format residue: mechanical bolding, decorative emoji, a filler sentence under a heading before the actual point
+- service tone: 「希望这对你有帮助」「好问题」「让我们深入探讨」「未来可期」
+- padding: 「值得注意的是」「需要指出的是」「在某种程度上」「不得不说」
+
+If a changed sentence now looks more fluent but less owned by the author, restore the author's version or make a smaller edit.
+
+### Pattern H: 发现者叙事 — AI 高频指纹
+
+「我发现了一个没人发现的东西」「没有一个人意识到」「我是第一个……」——这个叙事框架本身是 AI 生成中文的高频模式。
+
+人当然也会用发现者叙事。区别在于人说完之后会跟具体证据、方法论说明、自嘲或不确定性。AI 说完就没了，只留下一个孤零零的宣告。
+
+**检测三步**：遇到发现者叙事时，检查后面有没有：
+- 具体的方法论说明（怎么选的论文、什么纳入/排除标准）
+- 反证考虑（为什么可能不是这样）
+- 自嘲或不确定性（「可能」「至少」「我还在验证」）
+
+三项全无 → AI 指纹，改写。
+
+**改写方向**：
+- 「我发现了一个没人命名的新领域」 → 「我注意到多个学科正在同时逼近同一个问题」
+- 「没有一个人意识到」 → 「目前尚未形成统一命名」
+- 「我是第一个……」 → 删掉，不必说
+
+原则：**让人通过你的证据自己得出「这是个新领域」的判断，不要替读者下结论。** 你负责把材料摆清楚，结论是读者的事。
+
 ## Output modes
 
 When useful, you may internally think in these modes:
@@ -334,6 +392,8 @@ Before finishing, check:
 - Did I keep the actual meaning and force?
 - Did I reduce translated-English rhythm?
 - Did I avoid washing everything into gray formal prose?
+- If I edited the user's own text, did I preserve their stance, breath, and odd but meaningful choices?
+- Did I avoid adding polished claims, fake specificity, or rhetorical performance?
 - Is the result clearer, not just shorter?
 - Would the user feel this sounds more like them or more usable for them?
 
@@ -363,6 +423,9 @@ Removing edge, force, or personality in the name of smoothness.
 
 ### 7. Spoken fake
 Trying to sound spoken by adding low-value filler instead of fixing rhythm.
+
+### 8. Over-authoring
+Making the text more impressive by replacing the author's voice with yours.
 
 ## Final instruction
 
